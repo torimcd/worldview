@@ -25,7 +25,6 @@ import {
 import {
   transformLineStringArc,
   transformPolygonArc,
-  downloadShapefiles,
   downloadGeoJSON,
 } from '../measure-tool/util';
 import MeasureTooltip from '../measure-tool/measure-tooltip';
@@ -62,14 +61,12 @@ function OlMeasureTool (props) {
   }, [projections]);
 
   useEffect(() => {
-    const dlShapeFiles = () => downloadShapefiles(allMeasurements[crs], crs);
     const dlGeoJSON = () => downloadGeoJSON(allMeasurements[crs], crs);
 
     if (map && map.rendered) {
       map.ui.events.on('measure-distance', initDistanceMeasurement);
       map.ui.events.on('measure-area', initAreaMeasurement);
       map.ui.events.on('measure-clear', clearMeasurements);
-      map.ui.events.on('measure-download-shapefile', dlShapeFiles);
       map.ui.events.on('measure-download-geojson', dlGeoJSON);
     }
     return () => {
