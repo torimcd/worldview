@@ -1,0 +1,1 @@
+Here is a fainter example from the Somalia Sea on 20 January 2018. We have changed the thresholds on the image to see the milky sea a little bit more clearly.

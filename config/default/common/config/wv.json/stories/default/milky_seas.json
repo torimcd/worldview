@@ -1,0 +1,105 @@
+{
+  "stories": {
+    "milky_seas": {
+      "id": "milky_seas",
+      "type": "default",
+      "title": "Milky Seas",
+      "description": "Detecting bioluminescence from space",
+      "backgroundImage": "milky-seas-background.png",
+      "backgroundImageHover": "",
+      "readMoreLinks": [
+        {
+          "title": "Honing in on bioluminescent milky seas from space",
+          "link": "https://www.nature.com/articles/s41598-021-94823-z"
+        },
+        {
+          "title": "Chasing the light from elusive ‘milky seas’: CSU researchers light a path toward unraveling mysteries of the ocean from space",
+          "link": "https://engr.source.colostate.edu/chasing-the-light-from-elusive-milky-seas-csu-researchers-light-a-path-toward-unraveling-the-mysteries-of-the-ocean-from-space/"
+        }
+      ],
+      "steps": [
+        {
+          "id": "001",
+          "description": "step001.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=-57.214419603201314,-56.1586330775006,166.0807383111483,45.43943822381434&l=Reference_Labels_15m,Reference_Features_15m,Coastlines_15m(opacity=0.43),BlueMarble_ShadedRelief_Bathymetry&lg=true&tr=milky_seas&t=2021-07-10-T16%3A28%3A24Z"
+        },
+        {
+          "id": "002",
+          "description": "step002.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=34.48090888977883,-32.76592196265217,177.07501974667463,32.11361585313631&l=Reference_Labels_15m,Reference_Features_15m(hidden),Coastlines_15m,VIIRS_SNPP_DayNightBand_ENCC&lg=true&t=2021-07-07-T16%3A28%3A24Z"
+        },
+        {
+          "id": "003",
+          "description": "step003.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=100.67998184312945,-13.649554035145663,117.25352103649873,-6.108684665604977&l=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,VIIRS_SNPP_DayNightBand_ENCC,VIIRS_SNPP_DayNightBand_AtSensor_M15(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor(hidden)&lg=true&cm=opacity&t=2019-08-04-T19%3A59%3A55Z"
+        },
+        {
+          "id": "004",
+          "description": "step004.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=100.83834322547118,-13.981433667542879,117.95737254107267,-6.1923692862949995&l=VIIRS_SNPP_Brightness_Temp_BandI5_Day(hidden),VIIRS_SNPP_Brightness_Temp_BandI5_Night(hidden),Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,VIIRS_SNPP_DayNightBand_ENCC,VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden)&lg=true&l1=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,VIIRS_SNPP_Brightness_Temp_BandI5_Day(hidden),VIIRS_SNPP_Brightness_Temp_BandI5_Night,VIIRS_SNPP_DayNightBand_ENCC(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden)&lg1=true&ca=false&cm=opacity&cv=50&t=2019-08-04-T19%3A59%3A55Z&t1=2019-08-04-T19%3A59%3A55Z"
+        },
+        {
+          "id": "005",
+          "description": "step005.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=100.67998184312945,-13.64955403514566,117.25352103649873,-6.108684665604978&l=VIIRS_SNPP_Brightness_Temp_BandI5_Day(hidden),VIIRS_SNPP_Brightness_Temp_BandI5_Night(hidden),Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily(hidden),MODIS_Aqua_L3_SST_Thermal_4km_Night_Daily(hidden),MODIS_Aqua_L3_SST_MidIR_4km_Night_Daily(hidden),MODIS_Aqua_Chlorophyll_A(hidden),VIIRS_SNPP_DayNightBand_ENCC,VIIRS_SNPP_DayNightBand_AtSensor_M15(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor(hidden)&lg=true&l1=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,MODIS_Aqua_L3_SST_Thermal_4km_Night_Daily(opacity=0.72),MODIS_Aqua_L3_SST_MidIR_4km_Night_Daily(hidden,opacity=0.72),VIIRS_SNPP_DayNightBand_ENCC,VIIRS_SNPP_DayNightBand_AtSensor_M15(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor(hidden)&lg1=true&ca=false&cm=opacity&cv=100&t=2019-08-04-T19%3A59%3A55Z&t1=2019-08-04-T19%3A59%3A55Z"
+        },
+        {
+          "id": "006",
+          "description": "step006.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=100.67998184312945,-13.64955403514566,117.25352103649873,-6.108684665604978&l=VIIRS_SNPP_Brightness_Temp_BandI5_Day(hidden),VIIRS_SNPP_Brightness_Temp_BandI5_Night(hidden),Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily(hidden),MODIS_Aqua_L3_SST_Thermal_4km_Night_Daily(hidden),MODIS_Aqua_L3_SST_MidIR_4km_Night_Daily(hidden),MODIS_Aqua_Chlorophyll_A(hidden),VIIRS_SNPP_DayNightBand_ENCC,VIIRS_SNPP_DayNightBand_AtSensor_M15(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor(hidden)&lg=true&l1=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,VIIRS_SNPP_Brightness_Temp_BandI5_Day(hidden),VIIRS_SNPP_Brightness_Temp_BandI5_Night(hidden,opacity=0.75),MODIS_Aqua_L3_SST_Thermal_4km_Day_Daily(hidden,opacity=0.72),MODIS_Aqua_L3_SST_Thermal_4km_Night_Daily(hidden,opacity=0.84),MODIS_Aqua_L3_SST_MidIR_4km_Night_Daily(hidden),MODIS_Aqua_Chlorophyll_A(opacity=0.44),VIIRS_SNPP_DayNightBand_ENCC,VIIRS_SNPP_DayNightBand_AtSensor_M15(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor,MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor(hidden)&lg1=true&ca=false&cm=opacity&cv=100&t=2019-08-04-T19%3A59%3A55Z&t1=2019-08-04-T19%3A59%3A55Z"
+        },
+        {
+          "id": "007",
+          "description": "step007.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=44.50367760238861,0.8322993985625824,61.45250365347669,8.543922228613084&l=Reference_Labels_15m,Reference_Features_15m,Coastlines_15m(hidden),VIIRS_SNPP_Brightness_Temp_BandI5_Night(hidden,opacity=0.49),VIIRS_SNPP_DayNightBand_ENCC(max=129,squash=true),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden)&lg=true&t=2018-01-20-T00%3A00%3A00Z"
+        },
+        {
+          "id": "008",
+          "description": "step008.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=51.661053118137694,8.779948128908448,62.00120964951609,13.48466259900323&l=Reference_Labels_15m,Reference_Features_15m,Coastlines_15m,VIIRS_SNPP_L2_Chlorophyll_A(hidden,min=0.0278,squash=true),VIIRS_SNPP_Brightness_Temp_BandI5_Night(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden,max=1.5,squash=true),VIIRS_SNPP_DayNightBand_ENCC(max=115,squash=true),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden)&lg=true&t=2021-01-17-T00%3A00%3A00Z"
+        },
+        {
+          "id": "009",
+          "description": "step009.html",
+          "transition": {
+            "element": "",
+            "action": ""
+          },
+          "stepLink": "v=-214.9311655221215,-88.4931581834785,174.18008826559748,88.55032666285464&l=Reference_Labels_15m,Reference_Features_15m,Coastlines_15m,VIIRS_SNPP_L2_Chlorophyll_A(hidden,min=0.0278,squash=true),VIIRS_SNPP_Brightness_Temp_BandI5_Night(hidden),VIIRS_SNPP_DayNightBand_At_Sensor_Radiance(hidden),VIIRS_SNPP_DayNightBand_ENCC,VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden)&lg=true&t=2021-08-31-T19%3A48%3A58Z"
+        }
+      ]
+    }
+  }
+}
