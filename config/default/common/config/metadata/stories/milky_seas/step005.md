@@ -1,3 +1,3 @@
-We can investigate this a little further by adding the Sea Surface Temperature (L3, Night, Daily, Thermal, 4km) layer from the Moderate Resolution Imaging Spectroradiometer (MODIS) instrument aboard the Aqua satellite, which has a similar overpass time as Suomi NPP. You can see that the western side of the milky sea stops at an area of cooler water shown in yellow which is giving it it's elongated shape.
+Let's investigate this a little further by adding the Sea Surface Temperature (L3, Night, Daily, Thermal, 4km) layer from the Moderate Resolution Imaging Spectroradiometer (MODIS) instrument aboard the Aqua satellite, which has a similar overpass time as Suomi NPP. You can see that the eastern edge of the milky sea stops at an area of cooler water shown in yellow which is giving the milky sea its elongated shape.
 
-(Worldview currently does not have a Suomi NPP/VIIRS Sea Surface Temperature layer for this time period)
+(Worldview currently does not have a Suomi NPP/VIIRS Sea Surface Temperature layer for this time period and the MODIS/Aqua swath does not completeley cover the milky sea area.)
