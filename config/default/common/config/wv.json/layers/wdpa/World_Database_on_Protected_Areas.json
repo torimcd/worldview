@@ -11,6 +11,7 @@
       "format": "image/png",
       "type": "wms",
       "layergroup": "Reference",
+      "disableSnapshot": true,
       "wrapX": true,
       "projections": {
         "geographic": {
